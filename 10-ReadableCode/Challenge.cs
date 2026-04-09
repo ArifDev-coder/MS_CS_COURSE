@@ -24,10 +24,10 @@ class Challenge
         }
 
         // convert it back to a string
-        string newMessage = new(message);
+        string reversedMessage = new(message);
 
         // print it out
-        Console.WriteLine(newMessage);
-        Console.WriteLine($"'o' appears {x} times.");
+        Console.WriteLine(reversedMessage);
+        Console.WriteLine($"'o' appears {letterCount} times.");
     }
 }
