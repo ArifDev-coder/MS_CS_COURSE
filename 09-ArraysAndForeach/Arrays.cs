@@ -21,4 +21,9 @@ class Arrays
 
         Console.WriteLine($"The are {fraudulentOrderIDs.Length} fraudulent orders to process.");
     }
+
+    public static void Log(string msg)
+    {
+      Console.WriteLine(msg);
+    }
 }
